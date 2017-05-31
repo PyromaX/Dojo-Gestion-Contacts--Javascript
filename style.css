@@ -1,0 +1,98 @@
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+img{
+  width: 40%;
+  margin: 35px 0 30px 0;
+}
+h1 {
+  text-align: center;
+  color: #B22430;
+  font-weight: bold;
+  font-family: serif;
+  font-size: 30px
+}
+.container {
+  width: 22%;
+}
+#select {
+  width: 95%;
+  background-color: #B22430;
+  color: white;
+  font-weight: bold;
+  font-family: sans-serif;
+  font-size: 20px;
+  padding : 8px 10px;
+  border: none;
+}
+
+.jumbotron {
+  margin-top: 40px;
+  width: 100%;
+}
+.container .jumbotron{
+    border-radius: 0;
+}
+
+.jumbotron p{
+  margin-bottom: 0;
+  padding: 0;
+  color: #B22430;
+  font-weight: bold;
+  font-family: serif;
+  font-size: 20px
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+li ul{
+  color: #B22430;
+  font-size: 17px;
+  font-family: serif;
+}
+
+span{
+  font-weight: bold;
+}
+
+.jumbotron > ul > li {
+  margin-top: 13px;
+}
+
+label {
+  font-family: serif;
+  color: #B22430;
+  margin: 7px 0;
+  font-weight: normal;
+  font-size: 17px;
+}
+input[type="text"]{
+  border: 1px solid #B22430;
+  border-radius: 0;
+  width: 100%;
+}
+
+input[type="button"]{
+  border: none;
+  background-color: #B22430;
+  color: white;
+  border-radius: 0;
+  font-size: 20px;
+  margin-top: 20px;
+  padding: 7px 0;
+  width: 100%;
+}
+
+#nombres {
+  font-weight: normal;
+}
+
+option:hover{
+  background-color: #DF2D3C !important;
+}
